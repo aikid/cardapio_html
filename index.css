@@ -1,0 +1,50 @@
+.header{
+    width: 95%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 25px;
+}
+
+.logo{
+    background-color: pink;
+    height: 100px;
+}
+
+.titleLogo{
+    background-color: darkblue;
+    height: 100px;
+    padding-left: 25px;
+}
+
+.title{
+    color: #fff;
+}
+
+.container{
+    width: 95%;
+    padding: 20px;
+}
+
+.productContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.productPhoto{
+    height: 200px;
+    background-color: #ccc;
+}
+
+.productTitle{
+    background-color: darkblue;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.productDesc{
+    background-color: #666;
+    height: 50px;
+    margin-top: 20px;
+}
